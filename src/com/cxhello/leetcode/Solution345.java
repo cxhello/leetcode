@@ -55,8 +55,7 @@ public class Solution345 {
             a++;
             b--;
         }
-        StringBuilder stringBuilder = new StringBuilder();
-        return stringBuilder.append(charArray).toString();
+        return new String(charArray);
     }
 
     public static void main(String[] args) {
