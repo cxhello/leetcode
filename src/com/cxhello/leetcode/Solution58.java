@@ -21,8 +21,8 @@ public class Solution58 {
 
     public static void main(String[] args) {
         Solution58 solution58 = new Solution58();
-        System.out.println(solution58.lengthOfLastWord("Hello World"));
-        System.out.println(solution58.lengthOfLastWord("   fly me   to   the moon   "));
+        solution58.lengthOfLastWord("Hello World");
+        solution58.lengthOfLastWord("   fly me   to   the moon   ");
     }
 
 }
